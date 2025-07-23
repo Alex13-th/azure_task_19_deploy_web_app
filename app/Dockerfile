@@ -6,7 +6,7 @@ WORKDIR /app
 
 COPY . .
 
-FROM python:${PYTHON_VERSION}-slim as run
+FROM python:${PYTHON_VERSION}-slim AS run
 
 WORKDIR /app
 
